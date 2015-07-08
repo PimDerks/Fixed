@@ -1,0 +1,28 @@
+.wrapper {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.container {
+    background:red;
+    min-height: 100vh;
+}
+
+.container:nth-child(1){ background: red; }
+.container:nth-child(2){ background: green; }
+.container:nth-child(3){ background: blue; }
+.container:nth-child(4){ background: pink; }
+
+.fixed {
+    color: white;
+    height: 200px;
+    width: 200px;
+    background: black;
+    line-height: 200px;
+    text-align: center;
+}
+
+.is-fixed {
+    position: fixed;
+    top: 0;
+}
